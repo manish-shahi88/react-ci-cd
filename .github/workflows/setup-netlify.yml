@@ -2,11 +2,11 @@ name: CI/CD Pipeline
 on:
   push:
     branch:
-    -main
+      - master
 
   pull_request:
     branches:
-      -master
+      - master
 
 jobs:
   build:
